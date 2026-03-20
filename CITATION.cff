@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this taxonomy, please cite it as below."
+title: "GEO Taxonomy v1.0 — A Classification Framework for Generative Engine Optimization"
+type: dataset
+authors:
+  - family-names: Caramaschi
+    given-names: Alexandre
+    affiliation: Brasil GEO
+    website: https://alexandrecaramaschi.com
+keywords:
+  - taxonomy
+  - geo
+  - generative-engine-optimization
+  - ai-visibility
+  - classification
+license: CC-BY-4.0
+date-released: "2026-03-20"
+url: https://alexandrecaramaschi.com/geo/
+repository: https://github.com/alexandrebrt14/geo-taxonomy
