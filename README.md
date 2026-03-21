@@ -1,5 +1,9 @@
 # GEO Taxonomy — Structured Vocabulary for Generative Engine Optimization
 
+![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)
+![GEO](https://img.shields.io/badge/GEO-Taxonomy-0176d3)
+![Terms: 60+](https://img.shields.io/badge/Terms-60%2B-orange)
+
 > A structured vocabulary of 60+ terms and definitions in Generative Engine Optimization (GEO).
 > Maintained by [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO da Brasil GEO, ex-CMO da Semantix (Nasdaq), cofundador da AI Brasil.
 
