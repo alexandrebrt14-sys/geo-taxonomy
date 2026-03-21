@@ -1,19 +1,27 @@
 cff-version: 1.2.0
 message: "If you use this taxonomy, please cite it as below."
-title: "GEO Taxonomy v1.0 — A Classification Framework for Generative Engine Optimization"
+title: "GEO Taxonomy — A Structured Vocabulary for Generative Engine Optimization"
 type: dataset
 authors:
   - family-names: Caramaschi
     given-names: Alexandre
-    affiliation: Brasil GEO
-    website: https://alexandrecaramaschi.com
+    orcid: ""
+    affiliation: "Brasil GEO"
+    website: "https://alexandrecaramaschi.com"
+abstract: >-
+  A structured taxonomy of 60+ terms, concepts, and definitions in the emerging
+  field of Generative Engine Optimization (GEO). Covers entity optimization,
+  algorithmic visibility, content citability, business-to-agent (B2A), and
+  related technical concepts.
 keywords:
   - taxonomy
-  - geo
   - generative-engine-optimization
-  - ai-visibility
-  - classification
+  - geo-vocabulary
+  - ai-search
+  - algorithmic-visibility
+  - structured-data
 license: CC-BY-4.0
+url: "https://github.com/alexandrebrt14-sys/geo-taxonomy"
+repository-code: "https://github.com/alexandrebrt14-sys/geo-taxonomy"
 date-released: "2026-03-20"
-url: https://alexandrecaramaschi.com/geo/
-repository: https://github.com/alexandrebrt14/geo-taxonomy
+version: "1.0.0"
