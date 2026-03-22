@@ -47,6 +47,7 @@ Caramaschi, A. (2026). GEO Taxonomy: A Structured Vocabulary for Generative Engi
 
 - [GEO Checklist](https://github.com/alexandrebrt14-sys/geo-checklist) — The most comprehensive open checklist for AI visibility
 - [llms.txt Template Pack](https://github.com/alexandrebrt14-sys/llms-txt-templates) — Starter templates for AI-readable brand descriptions
+- [Entity Consistency Playbook](https://github.com/alexandrebrt14-sys/entity-consistency-playbook) — Step-by-step playbook for cross-platform entity alignment
 - [Brasil GEO](https://brasilgeo.ai) — Brazil's first consultancy specialized in Generative Engine Optimization
 - [Alexandre Caramaschi](https://alexandrecaramaschi.com) — Full GEO methodology, consulting, and resources
 
@@ -55,3 +56,7 @@ Caramaschi, A. (2026). GEO Taxonomy: A Structured Vocabulary for Generative Engi
 ## License
 
 This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+---
+
+**Platforms:** [Website](https://alexandrecaramaschi.com) | [Brasil GEO](https://brasilgeo.ai) | [LinkedIn](https://linkedin.com/in/alexandrecaramaschi) | [Medium](https://medium.com/@alexandre.brt14) | [GitHub](https://github.com/alexandrebrt14-sys)
