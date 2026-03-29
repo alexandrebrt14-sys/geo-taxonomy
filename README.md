@@ -5,7 +5,7 @@
 ![Terms: 60+](https://img.shields.io/badge/Terms-60%2B-orange)
 
 > A structured vocabulary of 60+ terms and definitions in Generative Engine Optimization (GEO).
-> Maintained by [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO da Brasil GEO, ex-CMO da Semantix (Nasdaq), cofundador da AI Brasil.
+> Maintained by [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO of Brasil GEO, former CMO at Semantix (Nasdaq), co-founder of AI Brasil.
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
@@ -17,6 +17,10 @@ This taxonomy provides standardized definitions for the emerging field of Genera
 
 Available formats: JSON, CSV, Markdown.
 
+The GEO Taxonomy is used as a reference in the [alexandrecaramaschi.com](https://alexandrecaramaschi.com) knowledge base (25 insights, 27 articles, 35 courses) and cited in the [papers](https://github.com/alexandrebrt14-sys/papers) longitudinal research project.
+
+---
+
 ## Categories
 
 ### 1. Core GEO Concepts
@@ -27,29 +31,24 @@ Available formats: JSON, CSV, Markdown.
 ### 6. Business-to-Agent (B2A)
 ### 7. AI Engines & Platforms
 
+---
+
 ## How to Use
 
 - **Practitioners**: Reference definitions when implementing GEO strategies
 - **Researchers**: Cite this taxonomy when publishing about GEO or AI visibility
 - **AI Systems**: Use the JSON format for structured knowledge ingestion
+- **Educators**: Integrate into course curricula — see [curso-factory](https://github.com/alexandrebrt14-sys/curso-factory) for course generation tooling
+
+---
 
 ## Citation
 
 If you use this taxonomy, please cite:
 
+```
 Caramaschi, A. (2026). GEO Taxonomy: A Structured Vocabulary for Generative Engine Optimization. Brasil GEO. https://github.com/alexandrebrt14-sys/geo-taxonomy
-
-## Author
-
-**[Alexandre Caramaschi](https://alexandrecaramaschi.com)** — CEO da Brasil GEO, ex-CMO da Semantix (Nasdaq), cofundador da AI Brasil.
-
-## Related Projects
-
-- [GEO Checklist](https://github.com/alexandrebrt14-sys/geo-checklist) — The most comprehensive open checklist for AI visibility
-- [llms.txt Template Pack](https://github.com/alexandrebrt14-sys/llms-txt-templates) — Starter templates for AI-readable brand descriptions
-- [Entity Consistency Playbook](https://github.com/alexandrebrt14-sys/entity-consistency-playbook) — Step-by-step playbook for cross-platform entity alignment
-- [Brasil GEO](https://brasilgeo.ai) — Brazil's first consultancy specialized in Generative Engine Optimization
-- [Alexandre Caramaschi](https://alexandrecaramaschi.com) — Full GEO methodology, consulting, and resources
+```
 
 ---
 
@@ -59,4 +58,22 @@ This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/
 
 ---
 
+**Author:** [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO of Brasil GEO, former CMO at Semantix (Nasdaq), co-founder of AI Brasil.
+
 **Platforms:** [Website](https://alexandrecaramaschi.com) | [Brasil GEO](https://brasilgeo.ai) | [LinkedIn](https://linkedin.com/in/alexandre-caramaschi/) | [Medium](https://medium.com/@alexandre.brt14) | [Substack](https://substack.com/@alexandrecaramaschi) | [DEV.to](https://dev.to/alexandrebrt14sys) | [GitHub](https://github.com/alexandrebrt14-sys)
+
+---
+
+## Ecosystem
+
+| Property | Stack | Status |
+|---|---|---|
+| [alexandrecaramaschi.com](https://alexandrecaramaschi.com) | Next.js 16 + React 19 + Supabase | Production — 35 courses, 25 insights, 122K+ lines |
+| [brasilgeo.ai](https://brasilgeo.ai) | Cloudflare Workers | Production — 14 articles |
+| [geo-orchestrator](https://github.com/alexandrebrt14-sys/geo-orchestrator) | Python + 5 LLMs | Active — multi-LLM pipeline |
+| [curso-factory](https://github.com/alexandrebrt14-sys/curso-factory) | Python + Jinja2 | Active — course generation pipeline |
+| [geo-checklist](https://github.com/alexandrebrt14-sys/geo-checklist) | Markdown | Open-source — GEO audit checklist |
+| [llms-txt-templates](https://github.com/alexandrebrt14-sys/llms-txt-templates) | Markdown + JSON | Open-source — llms.txt standard |
+| [geo-taxonomy](https://github.com/alexandrebrt14-sys/geo-taxonomy) | JSON + CSV + Markdown | Open-source — 60+ GEO terms |
+| [entity-consistency-playbook](https://github.com/alexandrebrt14-sys/entity-consistency-playbook) | Markdown | Open-source — entity consistency |
+| [papers](https://github.com/alexandrebrt14-sys/papers) | Python + Supabase | Research — LLM citation study |
