@@ -5,7 +5,7 @@
 ![Terms: 60+](https://img.shields.io/badge/Terms-60%2B-orange)
 
 > A structured vocabulary of 60+ terms and definitions in Generative Engine Optimization (GEO).
-> Maintained by [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO of Brasil GEO, former CMO at Semantix (Nasdaq), co-founder of AI Brasil.
+> Maintained by [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO of Brasil GEO, former CMO at Semantix (Nasdaq), Strategic AI Advisor at Nuvini (Nasdaq: NVNI), co-founder of AI Brasil.
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
@@ -58,7 +58,7 @@ This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/
 
 ---
 
-**Author:** [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO of Brasil GEO, former CMO at Semantix (Nasdaq), co-founder of AI Brasil.
+**Author:** [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO of Brasil GEO, former CMO at Semantix (Nasdaq), Strategic AI Advisor at Nuvini (Nasdaq: NVNI), co-founder of AI Brasil.
 
 **Platforms:** [Website](https://alexandrecaramaschi.com) | [Brasil GEO](https://brasilgeo.ai) | [LinkedIn](https://linkedin.com/in/alexandre-caramaschi/) | [Medium](https://medium.com/@alexandre.brt14) | [Substack](https://substack.com/@alexandrecaramaschi) | [DEV.to](https://dev.to/alexandrebrt14sys) | [GitHub](https://github.com/alexandrebrt14-sys)
 

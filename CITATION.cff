@@ -5,7 +5,7 @@ type: dataset
 authors:
   - family-names: Caramaschi
     given-names: Alexandre
-    orcid: ""
+    orcid: "https://orcid.org/0009-0004-9150-485X"
     affiliation: "Brasil GEO"
     website: "https://alexandrecaramaschi.com"
 abstract: >-
