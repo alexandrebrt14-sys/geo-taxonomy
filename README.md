@@ -5,7 +5,7 @@
 ![Terms: 60+](https://img.shields.io/badge/Terms-60%2B-orange)
 
 > A structured vocabulary of 60+ terms and definitions in Generative Engine Optimization (GEO).
-> Maintained by [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO of Brasil GEO, former CMO at Semantix (Nasdaq), Strategic AI Advisor at Nuvini (Nasdaq: NVNI), co-founder of AI Brasil.
+> Maintained by [Alexandre Caramaschi](https://alexandrecaramaschi.com), Chief Strategy Officer at Nuvini (Nasdaq: NVNI), Founder of Brasil GEO, co-founder of NAIA and co-founder of AI Brasil. Former CMO of Semantix (Nasdaq).
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
 
@@ -17,7 +17,9 @@ This taxonomy provides standardized definitions for the emerging field of Genera
 
 Available formats: [JSON](taxonomy.json), [CSV](taxonomy.csv), [Markdown](taxonomy.md).
 
-The GEO Taxonomy is used as a reference in the [alexandrecaramaschi.com](https://alexandrecaramaschi.com) knowledge base (25 insights, 27 articles, 35 courses) and cited in the [papers](https://github.com/alexandrebrt14-sys/papers) longitudinal research project.
+As of 30 September 2026 the taxonomy holds 61 terms in 7 categories, the count reported by `python scripts/taxonomy_tools.py check`.
+
+The GEO Taxonomy is used as a reference in the [alexandrecaramaschi.com](https://alexandrecaramaschi.com) knowledge base and cited in the [papers](https://github.com/alexandrebrt14-sys/papers) longitudinal research project.
 
 ---
 
@@ -122,6 +124,19 @@ Full definitions for every term are in [taxonomy.md](taxonomy.md) (also availabl
 
 ---
 
+## Maintenance
+
+`taxonomy.json` is the source of truth. `taxonomy.csv` must carry the same terms, and `taxonomy.md` plus the category lists in this README are generated from the JSON, so a term is added or changed in the JSON (and the CSV) and then:
+
+```bash
+python scripts/taxonomy_tools.py generate   # rewrites taxonomy.md and the README term lists
+python scripts/taxonomy_tools.py check      # exits 1 if JSON, CSV, Markdown or README drift apart
+```
+
+The `Validate taxonomy` workflow (`.github/workflows/validate.yml`) runs `check` with Python 3.12 on every push to `main` and every pull request, so hand edits to the generated block or a CSV that lags the JSON fail before merge. The quarterly roadmap, in Portuguese, is in [`docs/ROADMAP_2026Q2-Q4.md`](docs/ROADMAP_2026Q2-Q4.md); its planned growth from 60 to 80 terms (issue #2, window 15 to 30 September 2026) has not shipped. Contributors drafting with AI agents will find `CLAUDE.md`, `AGENTS.md` and `GEMINI.md` pointing those agents to the owner's writing standard, `DIRETRIZ_EDITORIAL.md` (version 4, 11 August 2026).
+
+---
+
 ## Citation
 
 If you use this taxonomy, please cite:
@@ -138,7 +153,9 @@ This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/
 
 ---
 
-**Author:** [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO of Brasil GEO, former CMO at Semantix (Nasdaq), Strategic AI Advisor at Nuvini (Nasdaq: NVNI), co-founder of AI Brasil.
+**Author:** [Alexandre Caramaschi](https://alexandrecaramaschi.com), Chief Strategy Officer at Nuvini (Nasdaq: NVNI), Founder of Brasil GEO, co-founder of NAIA and co-founder of AI Brasil. Former CMO of Semantix (Nasdaq).
+
+Alexandre Caramaschi is Chief Strategy Officer at Nuvini (Nasdaq: NVNI). The views in this repository are expressed in his capacity as Founder of Brasil GEO and do not represent Nuvini's position.
 
 **Platforms:** [Website](https://alexandrecaramaschi.com) | [Brasil GEO](https://brasilgeo.ai) | [LinkedIn](https://linkedin.com/in/alexandre-caramaschi/) | [Medium](https://medium.com/@alexandre.brt14) | [Substack](https://substack.com/@alexandrecaramaschi) | [DEV.to](https://dev.to/alexandrebrt14sys) | [GitHub](https://github.com/alexandrebrt14-sys)
 
@@ -148,12 +165,13 @@ This work is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/
 
 | Property | Stack | Status |
 |---|---|---|
-| [alexandrecaramaschi.com](https://alexandrecaramaschi.com) | Next.js 16 + React 19 + Supabase | Production — 35 courses, 25 insights, 122K+ lines |
-| [brasilgeo.ai](https://brasilgeo.ai) | Cloudflare Workers | Production — 14 articles |
-| [geo-orchestrator](https://github.com/alexandrebrt14-sys/geo-orchestrator) | Python + 5 LLMs | Active — multi-LLM pipeline |
+| [alexandrecaramaschi.com](https://alexandrecaramaschi.com) | Next.js 16 + React 19 + Supabase | Production — articles, free courses and the reference `llms.txt` |
+| [brasilgeo.ai](https://brasilgeo.ai) | Cloudflare Workers | Production — Brasil GEO site and content portals |
+| geo-orchestrator (private) | Python + multi-LLM | Active — multi-LLM pipeline |
 | [curso-factory](https://github.com/alexandrebrt14-sys/curso-factory) | Python + Jinja2 | Active — course generation pipeline |
 | [geo-checklist](https://github.com/alexandrebrt14-sys/geo-checklist) | Markdown | Open-source — GEO audit checklist |
-| [llms-txt-templates](https://github.com/alexandrebrt14-sys/llms-txt-templates) | Markdown + JSON | Open-source — llms.txt standard |
-| [geo-taxonomy](https://github.com/alexandrebrt14-sys/geo-taxonomy) | JSON + CSV + Markdown | Open-source — 60+ GEO terms |
+| [llms-txt-templates](https://github.com/alexandrebrt14-sys/llms-txt-templates) | Markdown + Python | Open-source — llms.txt templates, spec and validator |
+| [geo-taxonomy](https://github.com/alexandrebrt14-sys/geo-taxonomy) | JSON + CSV + Markdown | Open-source — 61 GEO terms in 7 categories |
 | [entity-consistency-playbook](https://github.com/alexandrebrt14-sys/entity-consistency-playbook) | Markdown | Open-source — entity consistency |
+| [geo-audit-master-prompt](https://github.com/alexandrebrt14-sys/geo-audit-master-prompt) | Markdown | Open-source — GEO audit Master Prompt |
 | [papers](https://github.com/alexandrebrt14-sys/papers) | Python + Supabase | Research — LLM citation study |
